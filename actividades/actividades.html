@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Hind:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Framenwork-->
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!--General-->
+  <link href="../css/sass.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <nav class="indigo darken-4 " role="navigation">
+    <!--En class definimos el color-->
+    <div class="nav-wrapper container nav">
+      <div class="main-container">
+        <div class="logo">
+          <a id="logo-container" href="#" class="brand-logo"><img class="logo-nav" src="../img/icono.jpg" /></a>
+        </div>
+        <div class="titulo-nav">
+          <h4 class="nombre-nav">Pablo Nieto Pascual</h4>
+          <h5 class="fecha-nav">16-01-2002</h5>
+        </div>
+      </div>
+
+      <div class="lista">
+        <ul class="right hide-on-med-and-down">
+          <!--Esta clase es para que cuando sea responsive se oculte-->
+          <li><a href="../index.html">Sobre mí</a></li>
+          <li><a href="../datos academicos/datos.html">Datos académicos</a></li>
+          <li><a href="../actividades/actividades.html">Actividades</a></li>
+          <li><a href="../habilidades/habilidades.html">Habilidades</a></li>
+          <li><a href="../contacta/contacta.html">Contacta conmigo</a></li>
+          <li><a href="../login/login.html"><i class="material-icons">account_circle</i></a></li>
+        </ul>
+      </div>
+
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="../index.html">Sobre mí</a></li>
+        <li><a href="../datos academicos/datos.html">Datos académicos</a></li>
+        <li><a href="../actividades/actividades.html">Actividades</a></li>
+        <li><a href="../habilidades/habilidades.html">Habilidades</a></li>
+        <li><a href="../contacta/contacta.html">Contacta conmigo</a></li>
+        <li><a href="../login/login.html"><i class="material-icons">account_circle</i></a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+
+  <!-- Modal Structure -->
+  <div class="album-trabajos">
+    <div class="titulo-lenguajes">
+      <h3 class="h3Act">Mis proyectos</h3>
+    </div>
+    <div class="foto">
+      <a class="img-album" href="#"><img src="../img/js.png"></a>
+
+
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal1">INFO</a>
+
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Anatomizador de animales</h4>
+          <p>Este proyecto sirve , para ver la anatomía de cualquier animal, cuya info haya sido introducida en un
+            fichero JSON, otro lenguaje con el cual acostumbro a trabajar</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">VER</a>
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">NO ME INTERESA</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="foto">
+      <a class="img-album" href="#"><img src="../img/php.png"></a>
+
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal2">INFO</a>
+
+
+      <!-- Modal Structure -->
+      <div id="modal2" class="modal">
+        <div class="modal-content">
+          <h4>Gestión del funcionamiento de una compañia de teatro</h4>
+          <p>Este proyecto de PHP, se encarga de controlar todas las acciones básicas de una base de datos (inserciones,
+            bajas, altas y modificaciones) creada con el lenguaje MySql, otro lenguaje con el que acostumbro a trabajar
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">VER</a>
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">NO ME INTERESA</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="foto">
+      <a class="img-album" href="#!" download="Contador de empleados (Servlet)"><img src="../img/servlet.png"></a>
+
+
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal3">INFO</a>
+
+
+      <!-- Modal Structure -->
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <h4>Consultas a una base de datos con Servlet</h4>
+          <p>En este proyecto me encargo de obtener los datos de una base de datos de empleados que coinciden con las
+            condiciones que yo meto a través de un formulario creado en el index, luego el Servlet se encargará de
+            recoger todos esos datos recogidos de la BD</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">VER</a>
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">NO ME INTERESA</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="foto">
+      <a class="img-album" href="#!" download="Gestion de habitaciones de Hotel - Angular"><img
+          src="../img/angular.png"></a>
+
+
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal4">INFO</a>
+
+
+      <!-- Modal Structure -->
+      <div id="modal4" class="modal">
+        <div class="modal-content">
+          <div class="modal-content">
+            <h4>Gestión de habitaciones de un hotel</h4>
+            <p>En este proyecto me encargo de gestionar las habitaciones de un hotel archivadas en una base de datos</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">VER</a>
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">NO ME INTERESA</a>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="foto">
+      <a class="img-album" href="#!" download="proyecto Symfony"><img src="../img/Symfony.jpg"></a>
+
+
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal5">INFO</a>
+
+
+      <!-- Modal Structure -->
+      <div id="modal5" class="modal">
+        <div class="modal-content">
+          <h4>Proyectos Symphony</h4>
+          <p>Un montón de proyectos Symphony</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">VER</a>
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">NO ME INTERESA</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="lenguajes">
+    <div class="titulo-lenguajes">
+      <h3 class="h3Act">Mis idiomas</h3>
+    </div>
+    <div class="español">
+      <div class="bandera">
+        <img mat-card-image srcset="españaR.jpg" 800w, src="españa.jpg" alt="Image of {{name}}">
+      </div>
+      <div class="info">
+        <h4>Lengua nativa</h4>
+      </div>
+    </div>
+    <div class="ingles">
+      <div class="bandera">
+        <img mat-card-image srcset="inglaterraR.png" 800w, src="inglaterra.png" alt="Image of {{name}}">
+      </div>
+      <div class="info">
+        <h4>B2. Cambridge Fists Certificate</h4>
+        <a href="trabajos/first.pdf"><button><i class="material-icons">description</i>Ver certificado</button></a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="telefono">
+      <i class="material-icons">phone</i>
+      <p>601282704</p>
+    </div>
+    <div class="mail">
+      <i class="material-icons">mail</i>
+      <p>pablonietopas@gmail.com</p>
+    </div>
+    <div class="ciudad">
+      <i class="material-icons">home</i>
+      <p>Valladolid</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/init.js"></script>
+  <script src="../js/modal.js"></script>
+</body>
+
+</html>

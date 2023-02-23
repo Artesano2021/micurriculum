@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Hind:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Framenwork-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!--General-->
+  <link href="css/sass.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <nav class="indigo darken-4 " role="navigation">
+    <!--En class definimos el color-->
+    <div class="nav-wrapper container nav">
+      <div class="main-container">
+        <div class="logo">
+          <a id="logo-container" href="#" class="brand-logo"><img class="logo-nav" src="./img/icono.jpg" /></a>
+        </div>
+        <div class="titulo-nav">
+          <h4 class="nombre-nav">Pablo Nieto Pascual</h4>
+          <h5 class="fecha-nav">16-01-2002</h5>
+        </div>
+      </div>
+
+      <div class="lista">
+        <ul class="right hide-on-med-and-down">
+          <!--Esta clase es para que cuando sea responsive se oculte-->
+          <li><a href="./index.html">Sobre mí</a></li>
+          <li><a href="./datos academicos/datos.html">Datos académicos</a></li>
+          <li><a href="./actividades/actividades.html">Actividades</a></li>
+          <li><a href="./habilidades/habilidades.html">Habilidades</a></li>
+          <li><a href="./contacta/contacta.html">Contacta conmigo</a></li>
+          <li><a href="./login/login.html"><i class="material-icons">account_circle</i></a></li>
+        </ul>
+      </div>
+
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="./index.html">Sobre mí</a></li>
+        <li><a href="./datos academicos/datos.html">Datos académicos</a></li>
+        <li><a href="./actividades/actividades.html">Actividades</a></li>
+        <li><a href="./habilidades/habilidades.html">Habilidades</a></li>
+        <li><a href="./contacta/contacta.html">Contacta conmigo</a></li>
+        <li><a href="./login/login.html"><i class="material-icons">account_circle</i></a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+  <div class="info-sobre mi">
+    <div class="principal">
+      <div class="titulo">
+        <h2>Sobre mí</h2>
+        <hr>
+      </div>
+      <div class="text">
+        <p>En la actualidad realizo el segundo curso del grado superior de DAW, siendo mi pasión la programación dando,
+          a la vez, importancia al diseño del front-end.</p>
+
+        <p>Me considero una persona organizada, responsable y trabajadora tanto a nivel individual, cómo formando parte
+          de equipos coordinados.</p>
+
+        <p>Los problemas me motivan a encontrar soluciones y siempre estoy dispuesto a aprender cosas nuevas</p>
+      </div>
+    </div>
+    <div class="más-información">
+      <div class="titulo">
+        <h2>Más información</h2>
+        <hr>
+      </div>
+      <div class="lista">
+        <ul>
+          <li>Carné de conducir B</li>
+          <li>Disponibilidad total</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="telefono">
+      <i class="material-icons">phone</i>
+      <p>601282704</p>
+    </div>
+    <div class="mail">
+      <i class="material-icons">mail</i>
+      <p>pablonietopas@gmail.com</p>
+    </div>
+    <div class="ciudad">
+      <i class="material-icons">home</i>
+      <p>Valladolid</p>
+    </div>
+  </footer>
+
+  <!--Script-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</body>
+
+</html>

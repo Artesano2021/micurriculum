@@ -1,0 +1,645 @@
+$primario: #001064;
+$primario2: #283593;
+$primario-claro: #5F5FC4;
+$fecha: #7070f0;
+$secundario: #F5F5F5;
+$secundario-oscuro: #C2C2C2;
+$white-text: white;
+
+//CABECERA
+.logo-nav {
+    display: flex;
+    margin-left: 12px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.nombre-nav{
+    font-family: 'Hind', sans-serif;
+    color:$white-text;
+}
+
+.fecha-nav{
+    font-family: 'Hind', sans-serif;
+    color: $secundario-oscuro;
+}
+
+nav {
+    display: flex;
+    height: 120px;
+    border-radius: 0px;
+   
+}
+
+
+.brand-logo {
+    margin-right: 12px;
+}
+
+.right hide-on-med-and-down {
+    font-family: 'Hind', sans-serif;
+    top: 12px;
+}
+
+.li{
+    font-family: 'Hind', sans-serif;
+}
+.main-container {
+    position: absolute;
+    flex-direction: row;
+}
+
+.titulo-nav {
+    position:relative;
+    margin-left: 132px;
+}
+
+.logo{
+    position: absolute;
+}
+.sidenav{
+    font-family: 'Hind', sans-serif;
+    background-color: $primario-claro;
+}
+
+hr{
+    border-color:$primario;
+}
+//PRINCIPAL
+.info-sobre mi {
+    margin-top: 570px;
+}
+
+
+
+.lista{
+    margin-left: 25px;
+    background-color: $secundario;
+}
+
+.principal {
+    font-family: 'Didact Gothic', sans-serif;
+    margin-left: 800px;
+}
+
+
+hr {
+    color: $primario;
+}
+
+.text {
+    background-color: $secundario;
+}
+
+.más-información{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+//CARTAS
+.info-datos {
+    margin-top: 172px;
+}
+
+h4 {
+    font-family: 'Didact Gothic', sans-serif;
+    margin-left: 12px;
+    color: $primario2;
+}
+
+h5{
+    font-family: 'Didact Gothic', sans-serif;
+    margin-left: 22px;
+}
+
+.bi-search{
+    margin-right: 12px;
+}
+
+.fecha-card {
+    font-family: 'Didact Gothic', sans-serif;
+    color: $primario-claro;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-top: 92px;
+}
+
+.flex-container>div{
+    background-color: $white-text;
+    margin: 3px;  
+    box-shadow: 6px 20px 10px black;
+    margin-bottom: 60px;
+}
+
+
+.flex-container>div>div>img{
+    width: 562px;
+    height: 400px;
+    background-color: $white-text;
+}
+
+.flex-container>div>div>p{
+    margin-top: 310px;
+    background-color: $white-text;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.flex-container>div>div{
+    width: 550px;
+    height: 100px;
+    background-color: $white-text;
+}
+
+button{
+    background-color: #ff9e80;
+    color: #c96f53;
+    width:538px; height:75px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.circular--squareH {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+
+  .circular--square {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+
+  .circular--square-nav {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+
+  .titulo{
+    margin-top: 8px;
+    margin-left: 20px;
+  }
+
+
+  .botonera{
+    font-family: 'Didact Gothic', sans-serif;
+   margin-left: 12px;
+  }
+
+ 
+
+//ACTIVIDADES
+.modal-trigger {
+    color: $secundario;
+    background-color: $primario-claro;
+    position: unset;
+}
+
+.album-trabajos {
+    font-family: 'Didact Gothic', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 372px;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+.español{
+    font-family: 'Didact Gothic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+.ingles{
+    font-family: 'Didact Gothic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+.h3Act {
+    font-family: 'Didact Gothic', sans-serif;
+    margin-left: 33px;
+    color: $white-text;
+}
+
+//BANDERAS
+.album-trabajos {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: $secundario;
+}
+
+.lenguajes {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $secundario;
+}
+
+.titulo-lenguajes {
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 70px;
+    background-color: $primario2;
+}
+
+button {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: $primario-claro;
+    color: $secundario;
+    border: none;
+}
+
+.titulo-lenguajes {
+    font-family: 'Didact Gothic', sans-serif;
+    width: 1903px;
+}
+
+
+//HABILIDADES
+.info-habilidades {
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top: 200px;
+}
+
+video {
+    width: 980px;
+    height: 920;
+    margin-top: 22px;
+    margin-left: 322px;
+}
+
+//FORMULARIO CONTACTO
+.contact-formulario{
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top: 200px;
+}
+
+.formulario{
+    margin-left: 72px;
+    width: 300px;
+    margin-top: 70px;
+}
+
+.btn-formulario{
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #001064;
+    color:$white-text;
+    border:none;
+    width: 45px;
+    height: 30px;
+    margin-right: 13px;
+    padding-right: 48px;
+    padding-left: 10px;
+}
+
+.btn-formulario:hover{
+    background-color: $primario2;
+}
+
+
+//LOGIN
+.especial{
+    font-family: 'Didact Gothic', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__container{
+    background-color: $secundario-oscuro;
+    width: 350px;
+    box-shadow: #001064;
+}
+
+.login__top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__title{
+    color: $primario;
+}
+
+.login__title span{
+    color: $primario-claro;
+}
+
+.login__img{
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem 0;
+}
+
+.btn__submit {
+    height: 2.5rem;
+    border: none;
+    background-color: #283593;
+    color: white;
+    padding: .5px;
+    margin: .5rem 0 .3rem;
+}
+
+.btn__submit:hover{
+    background-color: #5F5FC4;
+}
+
+
+//FOOTER
+
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: $primario-claro;
+    color: $white-text;
+    height: 60px;
+    align-content: center;
+    position: static;
+    font-family: 'Hind', sans-serif;
+}
+
+.telefono {
+    margin-top: 12px;
+    display: flex;
+}
+
+.mail {
+    margin-top: 12px;
+    display: flex;
+}
+
+.ciudad {
+    margin-top: 12px;
+    display: flex;
+}
+
+
+
+//RESPONSIVE
+
+//Info sobre mi
+@media (max-width: 1328px){
+    .principal {
+        margin-left: 450px;
+    }
+
+    .info-sobre mi {
+        margin-top: 570px;
+       /* position: static; */
+    }
+    
+    .lista{
+        margin-left: 25px;
+        background-color: $secundario;
+    }
+}
+
+@media (max-width: 958px){
+    .principal{
+        margin-left: 300px;
+    }
+
+    .info-sobre mi {
+        margin-top: 570px;
+       /* position: static; */
+    }
+    
+    .lista{
+        margin-left: 25px;
+        background-color: $secundario;
+    }
+}
+
+@media (max-width: 587px){
+    .principal{
+        margin-left: 100px;
+    }
+
+    .info-sobre mi {
+        margin-top: 570px;
+       /* position: static; */
+    }
+    
+
+    .lista{
+        margin-left: 25px;
+        background-color: $secundario;
+    }
+}
+//controlNAV
+
+@media (max-width: 979px) {
+    .main-container{
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+
+    .logo-nav{
+        display: flex;
+        margin-left: 46px;
+        margin-top: 10px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+   
+    .nombre-nav{
+        color:$white-text;
+        font-size: 22px;
+    }
+    
+    .fecha-nav{
+        color: $secundario-oscuro;
+        font-size: 15px;
+    }
+
+    .sidenav-trigger{
+        margin-right: 40px;
+    }
+
+    .fecha-nav{
+        color: $secundario-oscuro;
+    }
+    
+}
+
+//
+@media (max-width: 1314.32px) {
+
+    .fecha-nav{
+        color: $secundario-oscuro;
+    }
+    
+    video {
+        width: 700px;
+        height: 640;
+        margin-top: 22px;
+        margin-left: 102px;
+    }
+}
+
+@media (max-width: 925.333px) {
+    .nombre-nav{
+        color:$white-text;
+    }
+
+    video {
+        width: 719px;
+        height: 391;
+        margin-top: 22px;
+        margin-left: 32px;
+    }
+
+    .fecha-nav{
+        color: $secundario-oscuro;
+    }
+    
+}
+
+@media (max-width: 725.333px) {
+    .nombre-nav{
+        color:$white-text;
+    }
+
+    video {
+        width: 419px;
+        height: 91;
+        margin-top: 22px;
+        margin-left: 32px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    .fecha-nav{
+        color: $secundario-oscuro;
+    }
+    
+}
+
+//CARTAS
+@media (max-width: 979px){
+    .logo{
+        position: absolute;
+        margin-left: 69px;
+    }
+}
+@media (max-width: 694px){
+    .fecha-nav{
+        color: $secundario-oscuro;
+    }
+    
+    .nombre-nav{
+        color:$white-text;
+    }
+
+    .card{
+      width: 300px;
+      height: 700px;
+    }
+    .flex-container>div>div>img{
+      width: 300px;
+      height: 195px;
+      background-color: $white-text;
+  }
+  
+  .flex-container>div>div>video{
+      width: 300px;
+      height: 300px;
+      background-color: $white-text;
+  }
+  
+  .flex-container>div>div>p{
+    margin-top: 160px;
+    background-color: $white-text;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  
+  .flex-container>div>div{
+      width: 300px;
+      height: 70px;
+      background-color: $white-text;
+  }
+  
+  button{
+    margin-top: 10px;
+    background-color: $primario-claro;
+    color: $white-text;
+    width:273px; height:45px;
+    margin-left: 12px;
+  }
+  
+  .circular--squareH {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+  
+  .circular--square {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+  
+  .titulo{
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .botonera{
+    align-items: center;
+    height: 12px;
+    margin-left: 0px;
+   }
+  
+   .info{
+    margin-top: 0px;
+   }
+  
+   h4 {
+    font-size: 25px;
+    margin-left: 10px;
+    color: $primario2;
+}
+
+h5{
+    margin-left: 12px;
+    font-size: 15px;
+  }
+}
+  
+
